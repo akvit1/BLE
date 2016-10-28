@@ -1,4 +1,4 @@
-# clean the point data
+
 
 setwd(file.path(".", "Raw_Data"))
 
@@ -55,9 +55,9 @@ estate$counter <- rep(1,nrow(estate))
 
 # save the files for processing in ArcGIS
 
-write.csv(crime, file.path("..", "Analyzed_Data", "ArcGIS", "crime.csv"))
-write.csv(vacant, file.path("..", "Analyzed_Data", "ArcGIS", "vacant.csv"))
-write.csv(estate, file.path("..", "Analyzed_Data", "ArcGIS", "estate_.csv"))
+write.csv(crime, file.path("..", "Analyzed_Data", "ArcGIS", "crime_.csv"))
+write.csv(vacant, file.path("..", "Analyzed_Data", "ArcGIS", "vacant_.csv"))
+write.csv(estate, file.path("..", "Analyzed_Data", "ArcGIS", "estate__.csv"))
 
 
 

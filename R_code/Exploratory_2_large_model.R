@@ -1,4 +1,4 @@
-setwd(file.path(".", "Analyzed_Data/ArcGIS"))
+setwd(file.path(".", "Analyzed_Data", "ArcGIS"))
 
 
 packages<- c("maps", "maptools", "rgdal", "rgeos", "downloader", "dplyr",
@@ -61,3 +61,6 @@ summary(m7_s)
 
 
 p1 <- predict.sarlm(m7_s, listw = blocks_nb_w, newdata = blocks)
+
+setwd(file.path("..", ".."))
+      
